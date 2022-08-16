@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from '../helpers/renderWithRouter';
 
-describe('Aplica caso de teses em App.js', () => {
+describe('Aplica casos de teste em App.js', () => {
   it('Verifica se há um conjunto de links fixos em App.js', () => {
     renderWithRouter(<App />);
 
